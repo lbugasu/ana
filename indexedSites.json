@@ -1,0 +1,19 @@
+[
+    {"name":"Chimurenga",
+        "country":"South Africa",
+        "sourceType":"magazine",
+    "feedUrl":"https://chimurengachronic.co.za/feed/"
+    },
+    {
+        "name":"Daily Nation",
+        "country":"Kenya",
+        "sourceType":"newspaper",
+        "feedUrl":"https://www.nation.co.ke/service/rss/kenya/31772/feed.rss"
+    },
+    {
+        "name":"Citizen Kenya",
+        "country":"Kenya",
+        "sourceType":"newspaper",
+        "feedUrl":"https://citizentv.co.ke/feed/"
+    }
+]
