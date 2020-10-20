@@ -1,26 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+/**
+ * Import React and necessary libraries
+ */
+import React, {Component} from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+/**
+ * Import pages - We'll only have two pages:
+ * (1) the home page and (2) the article page
+ */
+import HomePage from "./pages/HomePage"
+import ArticlePage from "./pages/ArticlePage"
+import "./App.css";
+class App extends Component{
+  render(){
+    return(
+      <Router>
+          <Route path="/" component={HomePage} exact/>
+          <Route path="/article"/>
+      </Router>
+    )
+  }
 }
-
 export default App;
+

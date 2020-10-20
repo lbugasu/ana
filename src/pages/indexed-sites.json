@@ -1,0 +1,20 @@
+[
+    {   
+        "name":"Chimurenga",
+        "country":"South Africa",
+        "sourceType":"magazine",
+        "feedUrl":"https://chimurengachronic.co.za/feed/"
+    },
+    {
+        "name":"Ngoiri Migwi",
+        "country":"Kenya",
+        "feedUrl":"https://ngoirimigwi.co.ke/feed/",
+        "sourceType":"blog"
+    },
+    {
+        "name":"Notes I Keep",
+        "country":"Kenya",
+        "feedUrl":"https://notesikeep.wordpress.com/feed/",
+        "sourceType":"blog"
+    }
+]
