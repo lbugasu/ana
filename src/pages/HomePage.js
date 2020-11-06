@@ -5,7 +5,7 @@ import Parser from'rss-parser';
 /**
  * Import Components
  */
-import Navbar from "../components/NavBar"
+import Navbar from "../components/BlogNavBar"
 import ArticlePreview from "../components/ArticlePreview"
 import Footer from "../components/Footer"
 
