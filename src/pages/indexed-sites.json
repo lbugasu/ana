@@ -1,4 +1,10 @@
 [
+    {
+        "name":"Notes I Keep",
+        "country":"Kenya",
+        "feedUrl":"https://notesikeep.wordpress.com/feed/",
+        "sourceType":"blog"
+    },
     {   
         "name":"Chimurenga",
         "country":"South Africa",
@@ -9,12 +15,6 @@
         "name":"Ngoiri Migwi",
         "country":"Kenya",
         "feedUrl":"https://ngoirimigwi.co.ke/feed/",
-        "sourceType":"blog"
-    },
-    {
-        "name":"Notes I Keep",
-        "country":"Kenya",
-        "feedUrl":"https://notesikeep.wordpress.com/feed/",
         "sourceType":"blog"
     }
 ]
